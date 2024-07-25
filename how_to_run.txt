@@ -1,0 +1,41 @@
+Steps to Run the Django Project
+
+1. Create a Virtual Environment:
+    Ensure you have Python 3.8 or above installed.
+    Create and activate a virtual environment:
+        python3 -m venv env
+        source env/bin/activate
+
+2. Navigate to the Server Directory:
+    cd server
+
+3. Install Dependencies:
+    pip install -r requirements.txt
+
+4. Check the Django Project:
+    python manage.py check
+
+5. Make Migrations:
+    python manage.py makemigrations
+
+6. Apply Migrations:
+    python manage.py migrate
+
+7. Create a Superuser:
+    python manage.py createsuperuser
+
+8. Run the Django Development Server:
+    python manage.py runserver
+
+
+Steps to Run the React.js Project
+
+1. Navigate to the Client Directory:
+    cd client
+
+2. Install Dependencies:
+    npm install
+
+3. Run the React Development Server:
+    npm start
+
